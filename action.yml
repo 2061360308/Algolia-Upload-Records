@@ -2,4 +2,4 @@ name: 'Algolia Upload Records'
 description: 'Upload query data records to Algolia'
 runs:
   using: 'node12'
-  main: 'index.js'
+  main: 'dist/index.js'
