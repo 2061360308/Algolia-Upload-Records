@@ -13,4 +13,4 @@ jobs:
           APPLICATION_ID: ${{secrets.APPLICATION_ID}}
           ADMIN_API_KEY: ${{secrets.ADMIN_API_KEY}}
           INDEX_NAME: ${{secrets.INDEX_NAME}}
-          FILE_PATH: ~/records.json
+          FILE_PATH: /home/runner/work/Algolia-Upload-Records/Algolia-Upload-Records/records.json
