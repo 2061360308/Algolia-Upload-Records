@@ -1,0 +1,23 @@
+{
+  "name": "Algolia-Upload-Records",
+  "version": "1.0.0",
+  "description": "Upload query data records to Algolia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iChochy/Algolia-Upload-Records.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iChochy/Algolia-Upload-Records/issues"
+  },
+  "homepage": "https://github.com/iChochy/Algolia-Upload-Records#readme",
+  "dependencies": {
+    "algoliasearch": "^4.9.3"
+  }
+}
