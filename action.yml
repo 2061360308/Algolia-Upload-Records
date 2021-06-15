@@ -1,0 +1,5 @@
+name: 'Algolia Upload Records'
+description: 'Upload query data records to Algolia'
+runs:
+  using: 'node14'
+  main: 'index.js'
