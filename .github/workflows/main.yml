@@ -8,10 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: iChochy/Algolia-Upload-Records@main
-      - run: ls -l
-      - run: pwd
         env:
           APPLICATION_ID: ${{secrets.APPLICATION_ID}}
           ADMIN_API_KEY: ${{secrets.ADMIN_API_KEY}}
           INDEX_NAME: ${{secrets.INDEX_NAME}}
-          FILE_PATH: /home/runner/work/Algolia-Upload-Records/Algolia-Upload-Records/records.json
+          FILE_PATH: ${{secrets.FILE_PATH}}
