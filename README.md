@@ -39,3 +39,6 @@ jobs:
           INDEX_NAME: ${{secrets.INDEX_NAME}}
           FILE_PATH: ${{secrets.FILE_PATH}}
 ```
+
+## Example
+[使用 GitHub Action 自动上传搜索记录到 Algolia](https://ichochy.com/posts/202106012.html)
