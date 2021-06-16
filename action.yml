@@ -1,5 +1,6 @@
 name: 'Algolia Upload Records'
 description: 'Upload query data records to Algolia'
+author: iChochy@qq.com
 runs:
   using: 'node12'
   main: 'dist/index.js'
