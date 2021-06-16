@@ -41,4 +41,4 @@ jobs:
 ```
 
 ## Example
-[使用 GitHub Action 自动上传搜索记录到 Algolia](https://ichochy.com/posts/202106012.html)
+[使用 GitHub Action 自动上传搜索记录到 Algolia](https://ichochy.com/posts/20210612.html)
