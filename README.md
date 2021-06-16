@@ -1,6 +1,13 @@
 # Algolia Upload Records
 Upload query data records to Algolia
 
+## Set Secrets
+`Settings => Secrets => New repository secret`
+
+![162380894499277918](https://images.ichochy.com/162380894499277918.png)
+
+
+
 ## Example usage
 ```bash
 # Use Algolia Upload Records action
