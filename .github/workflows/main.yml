@@ -7,6 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - uses: iChochy/Algolia-Upload-Records@main
         env:
           APPLICATION_ID: ${{secrets.APPLICATION_ID}}
