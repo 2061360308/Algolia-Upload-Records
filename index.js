@@ -7,6 +7,11 @@ const ADMIN_API_KEY = process.env.ADMIN_API_KEY;
 const INDEX_NAME = process.env.INDEX_NAME;
 const FILE_PATH = process.env.FILE_PATH;
 
+console.log(APPLICATION_ID);
+console.log(ADMIN_API_KEY);
+console.log(INDEX_NAME);
+console.log(FILE_PATH);
+
 const client = algoliasearch(APPLICATION_ID, ADMIN_API_KEY)
 const index = client.initIndex(INDEX_NAME)
 
